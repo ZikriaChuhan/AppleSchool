@@ -23,31 +23,87 @@ header {
 }
 
 .locationDiv {
+
     background-color: #fc800a;
+
     padding-right: 115px;
+
     position: relative;
+
     color: #ffffff;
+
+    transition: all 0.3s linear;
+
 }
+
+ 
+
+.locationDiv:hover {
+
+    background-color: #fc800a;
+
+    padding-right: 115px;
+
+    position: relative;
+
+    color: #000000;
+
+}
+
+
+
 
 .locationDiv::after {
+
     content: '';
+
     position: absolute;
+
     top: 0;
+
     right: 0;
+
     border-bottom: 44px solid #fbf1e3;
+
     border-left: 50px solid transparent;
-    ;
+
     width: 0;
+
 }
+
+ 
 
 .headernum {
+
+    transition: all 0.3s linear;
+
     padding-right: 20px;
+
 }
 
-.headeremail {
-    padding-left: 20px;
-    border-left: 1px solid #000000;
+.headernum:hover {
+
+    color: #fc800a;
+
 }
+
+ 
+
+.headeremail {
+
+    padding-left: 20px;
+
+    border-left: 1px solid #000000;
+
+}
+
+.headeremail:hover {
+
+    color: #fc800a;
+
+}
+
+ 
 
 
 @media only screen and (max-width: 1050px) {
@@ -1836,200 +1892,436 @@ header {
 }
 
 /* FOOTER SECTION */
+
 .FooterCloudImgDiv {
+
     background-color: #FCF7EE;
+
 }
+
+ 
 
 .footerBgColor {
+
     padding-top: 90px;
+
     background-color: #171e45;
+
 }
+
+ 
 
 .ourNewsLetter {
+
     padding: 40px 250px 50px 250px;
+
     border-radius: 57px;
+
     border: 2px dashed #fc800a;
+
     width: fit-content;
+
     position: relative;
+
 }
+
+ 
 
 .newsletterStarSvg {
+
     top: 25%;
+
     right: 2%;
+
     width: 175px;
+
     position: absolute;
+
 }
+
+ 
 
 .ourNewsLetter h3 {
+
     color: #ffffff;
+
     font-weight: 600;
+
     font-size: 18px;
+
     letter-spacing: 2px;
+
 }
+
+ 
 
 .ourNewsLetter h2 {
+
     color: #ffffff;
+
     font-family: RowdiesRegular;
+
     line-height: 1;
+
     font-size: 45px;
+
 }
+
+ 
 
 .ourNewsLetter p {
+
     margin-top: 10px;
+
     color: #ffffff;
+
     font-size: 18px;
+
     max-width: 680px;
+
 }
+
+ 
 
 .newsLetterInput {
+
     width: 633px;
+
     padding: 14px 36px;
+
     border-radius: 3.125em;
+
 }
+
+ 
 
 .footerbtn {
+
     padding: 10px 40px;
+
     background-color: #fc800a;
+
     border-radius: 3.125em;
+
     font-size: 16px;
+
     font-weight: 600;
+
     color: #ffffff;
+
     border: 2px solid transparent;
+
 }
+
+ 
 
 .footerbtn:hover {
+
     border: 2px dashed #000000;
+
 }
+
+ 
 
 .footerbtnArrow {
+
     width: 25px;
+
     filter: brightness(0) invert(1);
+
 }
+
+ 
 
 .footerLogoDiv {
+
     position: relative;
+
     width: 591px;
+
 }
+
+ 
 
 .Sunflower {
+
     position: absolute;
+
     width: 150px;
+
     bottom: -10%;
+
     right: 8%;
+
 }
+
+ 
 
 .footerLogoDiv p {
+
     margin-top: 15px;
+
     max-width: 345px;
+
     font-size: 16px;
+
     color: #ffffff;
+
 }
+
+ 
 
 .footerLogoDiv h2 {
+
     margin-top: 20px;
+
     color: #ffffff;
+
     font-family: RowdiesRegular;
+
     font-size: 24px;
+
 }
+
+ 
 
 .socialIcon {
+
     width: 35px;
+
     height: 35px;
+
     padding: 7px;
+
     border-radius: 50%;
+
     background-color: #ffffff;
+
+    transition: all 0.3s linear;
+
 }
+
+.socialIcon:hover {
+
+    background-color: #fc800a;
+
+    color: #ffffff;
+
+}
+
+ 
 
 .footergetTouch {
+
     width: 453px;
+
 }
+
+ 
 
 .footergetTouch h2 {
+
     margin-bottom: 25px;
+
     color: #ffffff;
+
     font-family: RowdiesRegular;
+
     font-size: 24px;
+
 }
+
+ 
 
 .footergetTouch p {
+
     color: #ffffff;
+
     font-size: 16px;
+
     max-width: 208px;
+
 }
+
+ 
 
 .footergetTouch li {
+
     color: #ffffff;
+
     font-size: 16px;
+
     margin-bottom: 15px;
+
 }
+
+.footergetTouch li:hover {
+
+    transition: all 0.3s linear;
+
+    color: #fc800a;
+
+}
+
+ 
 
 .footergetTouch li span {
+
     margin-left: 8px;
+
     color: #ffffff;
+
     font-size: 16px;
 
+    transition: all 0.3s linear;
+
 }
+
+.footergetTouch li span:hover {
+
+    color: #fc800a;
+
+}
+
+ 
 
 .footerUesFull {
+
     position: relative;
+
     width: 348px;
+
 }
+
+ 
 
 .DotsImg {
+
     position: absolute;
+
     width: 100px;
+
     bottom: -10%;
+
     right: 52%;
+
 }
+
+ 
 
 .footerUesFull h2 {
+
     margin-bottom: 25px;
+
     color: #ffffff;
+
     font-family: RowdiesRegular;
+
     font-size: 24px;
+
 }
+
+ 
 
 .footerUesFull li {
+
     color: #ffffff;
+
     font-size: 16px;
+
     margin-bottom: 15px;
+
+    transition: all 0.3s linear;
+
 }
+
+.footerUesFull li:hover {
+
+    color: #fc800a;
+
+}
+
+ 
 
 .footerCustServ {
+
     width: 226px;
+
     position: relative;
+
 }
+
+ 
 
 .Musroom {
+
     position: absolute;
+
     width: 100px;
+
     bottom: -10%;
+
     right: -12%;
+
 }
+
+ 
 
 .footerCustServ h2 {
+
     margin-bottom: 25px;
+
     color: #ffffff;
+
     font-family: RowdiesRegular;
+
     font-size: 24px;
+
 }
+
+ 
 
 .footerCustServ li {
+
     color: #ffffff;
+
     font-size: 16px;
+
     margin-bottom: 15px;
+
+    transition: all 0.3s linear;
+
 }
+
+.footerCustServ  li:hover {
+
+    color: #fc800a;
+
+}
+
+ 
 
 .footerEndDiv {
+
     background-color: #F8E170;
+
     padding: 16px 110px;
+
 }
 
+ 
+
 .PaymentIcon1 {
+
     padding: 6px;
+
     background-color: #ffffff;
+
     width: 35px;
+
 }
+
+ 
 
 
 @media only screen and (max-width: 1050px) {
