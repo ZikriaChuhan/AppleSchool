@@ -1,0 +1,86 @@
+@font-face {
+    font-family: IntertRegular;
+    src: url(../fonts/Intert-Regular.ttf);
+}
+
+@font-face {
+    font-family: RowdiesRegular;
+    src: url(../fonts/Rowdies-Regular.ttf);
+}
+
+* {
+    font-family: IntertRegular;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.SectionTwoBlog {
+    background-color: #fcf7ee;
+}
+.blogdiv {
+    overflow: hidden;
+}
+
+.blogdiv h3{
+    font-family: RowdiesRegular;
+    font-size: 18px;
+    color: #fc800a
+}
+.blogdiv h3 span{
+    font-family: RowdiesRegular;
+    font-size: 18px;
+    color: #000000
+}
+
+.blogdiv h2{
+    font-family: RowdiesRegular;
+    font-size: 24px;
+    color: #000000
+}
+.blogdiv p{
+    font-size: 16px;
+    color: #000000
+}
+.Blog1 {
+    border-radius: 15px;
+    transition: all 0.5s linear;
+}
+.Blog1:hover {
+    scale: 1.1;
+}
+
+
+@media only screen and (max-width: 1050px) {
+
+    .SectionTwoBlog {
+        padding: 20px;
+        gap: 10px;
+    }
+
+    .blogdiv h3{
+        font-family: IntertRegular;
+        font-size: 18px;
+        font-weight: 700;
+        color: #fc800a
+    }
+    .blogdiv h3 span{
+        font-family: IntertRegular;
+        font-size: 18px;
+        font-weight: 700;
+        color: #000000
+    }
+    
+    .blogdiv h2{
+        font-family: IntertRegular;
+        font-size: 18px;
+        font-weight: 600;
+        color: #000000
+    }
+    .blogdiv p{
+        font-size: 14px;
+        color: #000000
+    }
+
+
+}

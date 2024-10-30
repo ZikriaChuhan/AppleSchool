@@ -1,0 +1,233 @@
+@font-face {
+    font-family: IntertRegular;
+    src: url(../fonts/Intert-Regular.ttf);
+}
+
+@font-face {
+    font-family: RowdiesRegular;
+    src: url(../fonts/Rowdies-Regular.ttf);
+}
+
+* {
+    font-family: IntertRegular;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+/* SECTION tWO */
+
+.SectionSixLMS {
+    background-color: #FCF6EE;
+}
+
+
+/* SECTION THREE */
+
+.LMScontactImgDiv1 {
+    position: relative;
+}
+
+.designRotate {
+    top: -40%;
+    left: -8%;
+    width: 250px;
+    position: absolute;
+    z-index: -1;
+    animation: rotatedesign 6.5s infinite linear;
+}
+
+@keyframes rotatedesign {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.ContactFormImg1 {
+    max-width: 400px;
+    border-radius: 20px;
+}
+
+.LMScontactImgDiv2 {
+    position: relative;
+}
+
+.designDots {
+    top: 20%;
+    left: 20%;
+    max-width: 250px;
+    z-index: -1;
+    position: absolute;
+}
+
+.fromtextDiv h3 {
+    font-size: 18px;
+    color: #FC800A;
+    font-weight: 600;
+}
+
+.fromtextDiv h2 {
+    font-family: IntertRegular;
+    font-weight: 600;
+    font-size: 45px;
+    color: #000000;
+}
+
+.fromtextDiv p {
+    font-size: 16px;
+    color: #000000;
+}
+
+.inputDvi1 input {
+    width: 50%;
+    border: 2px dashed transparent;
+    background-color: #FBF1E3CC;
+    border: #FBF1E3CC;
+    padding: 16px 40px;
+    border-radius: 15px;
+}
+
+.input-Dvi2 input {
+    width: 100%;
+    border: 2px dashed transparent;
+    background-color: #FBF1E3CC;
+    border: #FBF1E3CC;
+    padding: 16px 40px;
+    border-radius: 15px;
+}
+
+.input-Dvi2 textarea {
+    width: 100%;
+    border: 2px dashed transparent;
+    background-color: #FBF1E3CC;
+    border: #FBF1E3CC;
+    padding: 16px 40px;
+    border-radius: 15px;
+    height: 215px;
+    overflow: auto;
+    resize: none;
+}
+
+.LMScontactbtn {
+    padding: 12px 40px;
+    background-color: #fc800a;
+    border-radius: 3.125em;
+    font-family: RowdiesRegular;
+    font-size: 16px;
+    color: #ffffff;
+    border: 2px solid transparent;
+    transition: all 0.5s linear;
+}
+
+
+
+.LMScontactbtn:hover {
+    background-color: #000000;
+}
+
+.lmscloud {
+    background-color: #ffffff;
+}
+
+
+
+
+@media only screen and (max-width: 1050px) {
+
+    .SectionthreeLMS {
+        overflow-x: hidden;
+    }
+
+    .SectionthreeLMS {
+        padding: 20px 20px;
+    }
+
+    .LMScontactSec1 {
+        width: 100%;
+    }
+
+    .designRotate {
+        top: -10%;
+        left: -2%;
+        width: 100px;
+        position: absolute;
+        z-index: -1;
+    }
+
+    .ContactFormImg1 {
+        max-width: 250px;
+        border-radius: 20px;
+    }
+
+    .LMScontactImgDiv2 {
+        padding: 0px;
+    }
+
+    .designDots {
+        top: 20%;
+        left: 10%;
+        max-width: 100px;
+        z-index: -1;
+        position: absolute;
+    }
+
+
+    .LMScontactSec2 {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .fromtextDiv h3 {
+        font-size: 12px;
+    }
+
+    .fromtextDiv h2 {
+        font-size: 24px;
+    }
+
+    .fromtextDiv p {
+        font-size: 12px;
+    }
+
+    .inputDvi1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .inputDvi1 input {
+        width: 100%;
+        border: 2px dashed transparent;
+        background-color: #FBF1E3CC;
+        border: #FBF1E3CC;
+        padding: 16px 40px;
+        border-radius: 15px;
+    }
+
+    .inputDvi2 input {
+        width: 100%;
+        border: 2px dashed transparent;
+        background-color: #FBF1E3CC;
+        border: #FBF1E3CC;
+        padding: 16px 40px;
+        border-radius: 15px;
+    }
+
+    .inputDvi2 textarea {
+        width: 100%;
+        border: 2px dashed transparent;
+        background-color: #FBF1E3CC;
+        border: #FBF1E3CC;
+        padding: 16px 40px;
+        border-radius: 15px;
+        height: 115px;
+        overflow: auto;
+        resize: none;
+    }
+
+
+}
