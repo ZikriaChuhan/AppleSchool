@@ -5,8 +5,8 @@ import StarSvg1 from "../image/starsvg1.png"
 import StarSvg2 from "../image/starsvg2.png"
 import ThirdSecSvg1 from "../image/thirdSecSvg1.svg"
 import ThirdSecSvg2 from "../image/thirdSecSvg2.svg"
-import ThirdSecSvg3 from "../image/thirdSecSvg3.svg"
-import ThirdSecSvg4 from "../image/thirdSecSvg4.svg"
+import ThirdSecSvg3 from "../image/ThirdSecSvg3.svg"
+import ThirdSecSvg4 from "../image/ThirdSecSvg4.svg"
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
