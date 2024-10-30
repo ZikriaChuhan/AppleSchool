@@ -106,77 +106,171 @@ gsap.registerPlugin(ScrollTrigger)
 
 
                 <div className="coureAnimeDiv flex flex-wrap gap-6 justify-center pt-20 pb-20 ">
-                    <div className="courseDiv">
-                        <div className="courseImg1div overflow-hidden">
-                        <Image src={CourseImg1} alt="CourseImg1" className="courseImg1" />
-                        </div>
-                        <h2 className="mt-6">Math League</h2>
-                        <p className="mt-3">Gravida cum sociis natoque penatibus. Enim nec dui nunc mattis enim ut.</p>
-                        <div className="flex justify-between items-center pt-8">
-                            <h3><span>$69</span> $69 </h3>
-                            <button className="coursebtn flex items-center gap-2">JOIN CLASS<Image className="coubtnArrow" src={BtnArrow} alt="Btn Arrow" /> </button>
-                        </div>
-                    </div>
+                    <Link href="/LMScourses/courseSingal">
 
-                    <div className="courseDiv">
-                    <div className="courseImg1div overflow-hidden">
-                        <Image src={CourseImg1} alt="CourseImg1" className="courseImg1" />
-                        </div>
-                        <h2 className="mt-6">Math League</h2>
-                        <p className="mt-3">Gravida cum sociis natoque penatibus. Enim nec dui nunc mattis enim ut.</p>
-                        <div className="flex justify-between items-center pt-8">
-                            <h3><span>$69</span> $69 </h3>
-                            <button className="coursebtn flex items-center gap-2">JOIN CLASS<Image className="coubtnArrow" src={BtnArrow} alt="Btn Arrow" /> </button>
-                        </div>
-                    </div>
+                        <div className="courseDiv">
 
-                    <div className="courseDiv">
-                    <div className="courseImg1div overflow-hidden">
-                        <Image src={CourseImg1} alt="CourseImg1" className="courseImg1" />
-                        </div>
-                        <h2 className="mt-6">Math League</h2>
-                        <p className="mt-3">Gravida cum sociis natoque penatibus. Enim nec dui nunc mattis enim ut.</p>
-                        <div className="flex justify-between items-center pt-8">
-                            <h3><span>$69</span> $69 </h3>
-                            <button className="coursebtn flex items-center gap-2">JOIN CLASS<Image className="coubtnArrow" src={BtnArrow} alt="Btn Arrow" /> </button>
-                        </div>
-                    </div>
+                            <div className="courseImg1div overflow-hidden">
 
-                    <div className="courseDiv">
-                    <div className="courseImg1div overflow-hidden">
-                        <Image src={CourseImg1} alt="CourseImg1" className="courseImg1" />
-                        </div>
-                        <h2 className="mt-6">Math League</h2>
-                        <p className="mt-3">Gravida cum sociis natoque penatibus. Enim nec dui nunc mattis enim ut.</p>
-                        <div className="flex justify-between items-center pt-8">
-                            <h3><span>$69</span> $69 </h3>
-                            <button className="coursebtn flex items-center gap-2">JOIN CLASS<Image className="coubtnArrow" src={BtnArrow} alt="Btn Arrow" /> </button>
-                        </div>
-                    </div>
+                                <Image src={CourseImg1} alt="CourseImg1" className="courseImg1" />
 
-                    <div className="courseDiv">
-                    <div className="courseImg1div overflow-hidden">
-                        <Image src={CourseImg1} alt="CourseImg1" className="courseImg1" />
-                        </div>
-                        <h2 className="mt-6">Math League</h2>
-                        <p className="mt-3">Gravida cum sociis natoque penatibus. Enim nec dui nunc mattis enim ut.</p>
-                        <div className="flex justify-between items-center pt-8">
-                            <h3><span>$69</span> $69 </h3>
-                            <button className="coursebtn flex items-center gap-2">JOIN CLASS<Image className="coubtnArrow" src={BtnArrow} alt="Btn Arrow" /> </button>
-                        </div>
-                    </div>
+                            </div>
 
-                    <div className="courseDiv">
-                    <div className="courseImg1div overflow-hidden">
-                        <Image src={CourseImg1} alt="CourseImg1" className="courseImg1" />
+                            <h2 className="mt-6">Math League</h2>
+
+                            <p className="mt-3">Gravida cum sociis natoque penatibus. Enim nec dui nunc mattis enim ut.</p>
+
+                            <div className="flex justify-between items-center pt-8">
+
+                                <h3><span>$69</span> $69 </h3>
+
+                                <button className="coursebtn flex items-center gap-2">JOIN CLASS<Image className="coubtnArrow" src={BtnArrow} alt="Btn Arrow" /> </button>
+
+                            </div>
+
                         </div>
-                        <h2 className="mt-6">Math League</h2>
-                        <p className="mt-3">Gravida cum sociis natoque penatibus. Enim nec dui nunc mattis enim ut.</p>
-                        <div className="flex justify-between items-center pt-8">
-                            <h3><span>$69</span> $69 </h3>
-                            <button className="coursebtn flex items-center gap-2">JOIN CLASS<Image className="coubtnArrow" src={BtnArrow} alt="Btn Arrow" /> </button>
+
+                    </Link>
+
+ 
+
+                    <Link href="/LMScourses/courseSingal">
+
+                        <div className="courseDiv">
+
+                            <div className="courseImg1div overflow-hidden">
+
+                                <Image src={CourseImg1} alt="CourseImg1" className="courseImg1" />
+
+                            </div>
+
+                            <h2 className="mt-6">Math League</h2>
+
+                            <p className="mt-3">Gravida cum sociis natoque penatibus. Enim nec dui nunc mattis enim ut.</p>
+
+                            <div className="flex justify-between items-center pt-8">
+
+                                <h3><span>$69</span> $69 </h3>
+
+                                <button className="coursebtn flex items-center gap-2">JOIN CLASS<Image className="coubtnArrow" src={BtnArrow} alt="Btn Arrow" /> </button>
+
+                            </div>
+
                         </div>
-                    </div>
+
+                    </Link>
+
+ 
+
+                    <Link href="/LMScourses/courseSingal">
+
+                        <div className="courseDiv">
+
+                            <div className="courseImg1div overflow-hidden">
+
+                                <Image src={CourseImg1} alt="CourseImg1" className="courseImg1" />
+
+                            </div>
+
+                            <h2 className="mt-6">Math League</h2>
+
+                            <p className="mt-3">Gravida cum sociis natoque penatibus. Enim nec dui nunc mattis enim ut.</p>
+
+                            <div className="flex justify-between items-center pt-8">
+
+                                <h3><span>$69</span> $69 </h3>
+
+                                <button className="coursebtn flex items-center gap-2">JOIN CLASS<Image className="coubtnArrow" src={BtnArrow} alt="Btn Arrow" /> </button>
+
+                            </div>
+
+                        </div>
+
+                    </Link>
+
+ 
+
+                    <Link href="/LMScourses/courseSingal">
+
+                        <div className="courseDiv">
+
+                            <div className="courseImg1div overflow-hidden">
+
+                                <Image src={CourseImg1} alt="CourseImg1" className="courseImg1" />
+
+                            </div>
+
+                            <h2 className="mt-6">Math League</h2>
+
+                            <p className="mt-3">Gravida cum sociis natoque penatibus. Enim nec dui nunc mattis enim ut.</p>
+
+                            <div className="flex justify-between items-center pt-8">
+
+                                <h3><span>$69</span> $69 </h3>
+
+                                <button className="coursebtn flex items-center gap-2">JOIN CLASS<Image className="coubtnArrow" src={BtnArrow} alt="Btn Arrow" /> </button>
+
+                            </div>
+
+                        </div>
+
+                    </Link>
+
+ 
+
+                    <Link href="/LMScourses/courseSingal">
+
+                        <div className="courseDiv">
+
+                            <div className="courseImg1div overflow-hidden">
+
+                                <Image src={CourseImg1} alt="CourseImg1" className="courseImg1" />
+
+                            </div>
+
+                            <h2 className="mt-6">Math League</h2>
+
+                            <p className="mt-3">Gravida cum sociis natoque penatibus. Enim nec dui nunc mattis enim ut.</p>
+
+                            <div className="flex justify-between items-center pt-8">
+
+                                <h3><span>$69</span> $69 </h3>
+
+                                <button className="coursebtn flex items-center gap-2">JOIN CLASS<Image className="coubtnArrow" src={BtnArrow} alt="Btn Arrow" /> </button>
+
+                            </div>
+
+                        </div>
+
+                    </Link>
+
+ 
+
+                    <Link href="/LMScourses/courseSingal">
+
+                        <div className="courseDiv">
+
+                            <div className="courseImg1div overflow-hidden">
+
+                                <Image src={CourseImg1} alt="CourseImg1" className="courseImg1" />
+
+                            </div>
+
+                            <h2 className="mt-6">Math League</h2>
+
+                            <p className="mt-3">Gravida cum sociis natoque penatibus. Enim nec dui nunc mattis enim ut.</p>
+
+                            <div className="flex justify-between items-center pt-8">
+
+                                <h3><span>$69</span> $69 </h3>
+
+                                <button className="coursebtn flex items-center gap-2">JOIN CLASS<Image className="coubtnArrow" src={BtnArrow} alt="Btn Arrow" /> </button>
+
+                            </div>
+
+                        </div>
+
+                    </Link>
 
                 </div>
 
