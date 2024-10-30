@@ -62,7 +62,7 @@ export default function SectionmyFour() {
             <section className="FourthSection">
                 <div className="fouthSectxtDiv flex flex-col items-center text-center">
                     <h2>A FATURE-RICH LMS</h2>
-                    <h1>We've breen helping customers deliver eLearning in more than 10 countries</h1>
+                    <h1>We&apos;ve breen helping customers deliver eLearning in more than 10 countries</h1>
                 </div>
                 <div className="fourSecAnime px-36 pt-20 pb-36 gap-8 flex justify-center flex-wrap">
                     <div className="SponcerImgDiv bg-white "><Image src={Sponcer1} className="sponcer1" alt="Sponcer 1" /></div>

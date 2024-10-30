@@ -97,7 +97,7 @@ export default function SectionTwoContact() {
                 <div className=" flex flex-wrap justify-between items-center">
                     <div className="contact24hrDiv flex gap-3 justify-center items-center">
                         <Image src={Contact24hr} alt="contact24hr" className="contact24hr" />
-                        <h2>We're Here To Provide 24X7 Support</h2>
+                        <h2>We&apos;re Here To Provide 24X7 Support</h2>
                     </div>
 
                     <div className="contactparaDiv">
