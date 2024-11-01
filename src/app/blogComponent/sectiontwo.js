@@ -1,5 +1,6 @@
 'use client'
 import Image from "next/image";
+import Link from "next/link";
 import BtnArrow from "../image/btnarrow.svg"
 import Blog1 from "../image/blogImage1.jpg"
 import Blog2 from "../image/blogImage2.jpg"
@@ -64,7 +65,7 @@ export default function SectionTwoBlog() {
 
                     <div className="blogAnimeDiv  grid grid-cols-3 max-lg:grid-cols-1 gap-12 justify-center items-center">
 
-
+                    <Link href="/blog/blogSingal">
                         <div className="blogdiv flex flex-col gap-3 flex-wrap ">
                             <div className=" overflow-hidden rounded-2xl">
                             <Image src={Blog1} alt="Blog1" className="Blog1" />
@@ -77,9 +78,10 @@ export default function SectionTwoBlog() {
                             <div>
                             <button className="coursebtn flex items-center gap-2">Read More<Image className="coubtnArrow" src={BtnArrow} alt="Btn Arrow" /> </button>
                             </div>
-                            
                         </div>
+                        </Link>
 
+                        <Link href="/blog/blogSingal">
                         <div className="blogdiv flex flex-col gap-3 flex-wrap ">
                         <div className=" overflow-hidden rounded-2xl">
                             <Image src={Blog2} alt="Blog1" className="Blog1" />
@@ -93,7 +95,9 @@ export default function SectionTwoBlog() {
                             <button className="coursebtn flex items-center gap-2">Read More<Image className="coubtnArrow" src={BtnArrow} alt="Btn Arrow" /> </button>
                             </div>
                         </div>
+                        </Link>
 
+                        <Link href="/blog/blogSingal">
                         <div className="blogdiv flex flex-col gap-3 flex-wrap ">
                         <div className=" overflow-hidden rounded-2xl">
                             <Image src={Blog3} alt="Blog1" className="Blog1" />
@@ -107,7 +111,9 @@ export default function SectionTwoBlog() {
                             <button className="coursebtn flex items-center gap-2">Read More<Image className="coubtnArrow" src={BtnArrow} alt="Btn Arrow" /> </button>
                             </div>
                         </div>
+                        </Link>
 
+                        <Link href="/blog/blogSingal">
                         <div className="blogdiv flex flex-col gap-3 flex-wrap ">
                         <div className=" overflow-hidden rounded-2xl">
                             <Image src={Blog4} alt="Blog1" className="Blog1" />
@@ -120,9 +126,10 @@ export default function SectionTwoBlog() {
                             <div>
                             <button className="coursebtn flex items-center gap-2">Read More<Image className="coubtnArrow" src={BtnArrow} alt="Btn Arrow" /> </button>
                             </div>
-                            
                         </div>
+                        </Link>
 
+                        <Link href="/blog/blogSingal">
                         <div className="blogdiv flex flex-col gap-3 flex-wrap ">
                         <div className=" overflow-hidden rounded-2xl">
                             <Image src={Blog5} alt="Blog1" className="Blog1" />
@@ -136,7 +143,9 @@ export default function SectionTwoBlog() {
                             <button className="coursebtn flex items-center gap-2">Read More<Image className="coubtnArrow" src={BtnArrow} alt="Btn Arrow" /> </button>
                             </div>
                         </div>
+                        </Link>
 
+                        <Link href="/blog/blogSingal">
                         <div className="blogdiv flex flex-col gap-3 flex-wrap ">
                         <div className=" overflow-hidden rounded-2xl">
                             <Image src={Blog6} alt="Blog1" className="Blog1" />
@@ -150,7 +159,7 @@ export default function SectionTwoBlog() {
                             <button className="coursebtn flex items-center gap-2">Read More<Image className="coubtnArrow" src={BtnArrow} alt="Btn Arrow" /> </button>
                             </div>
                         </div>
-
+                        </Link>
 
 
                     </div>
