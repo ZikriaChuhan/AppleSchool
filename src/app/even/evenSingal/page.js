@@ -10,7 +10,7 @@ import Header from "@/app/components/header";
 import Image from "next/image";
 import CloudImg from "../../image/cloudimg.png"
 import BlogSingalboximg1 from "../../image/blogSingalboximg1.svg"
-import BlogSingalboximg2 from "../../image/blogSingalboximg2.svg"
+import BlogSingalboximg2 from "../../image/BlogSingalboximg2.svg"
 import EventDetail1 from "../../image/eventDetail1.webp"
 import EventDetail2 from "../../image/eventDetail2.webp"
 import ContImg1 from "../../image/contImg1.webp"
