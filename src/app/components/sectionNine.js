@@ -1,5 +1,6 @@
 "use client"
 import Image from "next/image"
+import Link from "next/link";
 import BtnArrow from "../image/btnarrow.svg"
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
@@ -72,6 +73,7 @@ export default function SectionNine() {
 
                     <div className="nineEvenAnim flex justify-between flex-wrap gap-y-10">
 
+                      <Link href="/even/evenSingal">
                         <div className="evenBox flex flex-wrap bg-white">
                             <div className="eventFeatureImg8 eFImg8">
                             
@@ -86,7 +88,9 @@ export default function SectionNine() {
                                 <button className="evenbtn flex items-center gap-2">View Events<Image className="evenbtnArrow" src={BtnArrow} alt="Btn Arrow" /> </button>
                             </div>
                         </div>
+                        </Link>
 
+                        <Link href="/even/evenSingal">
                         <div className="evenBox flex flex-wrap bg-white">
                             <div className="eventFeatureImg8 eFImg7">
                             
@@ -101,7 +105,9 @@ export default function SectionNine() {
                                 <button className="evenbtn flex items-center gap-2">View Events<Image className="evenbtnArrow" src={BtnArrow} alt="Btn Arrow" /> </button>
                             </div>
                         </div>
+                        </Link>
 
+                        <Link href="/even/evenSingal">
                         <div className="evenBox flex flex-wrap bg-white">
                             <div className="eventFeatureImg8 eFImg6">
                             
@@ -116,7 +122,9 @@ export default function SectionNine() {
                                 <button className="evenbtn flex items-center gap-2">View Events<Image className="evenbtnArrow" src={BtnArrow} alt="Btn Arrow" /> </button>
                             </div>
                         </div>
+                        </Link>
 
+                        <Link href="/even/evenSingal">
                         <div className="evenBox flex flex-wrap bg-white">
                             <div className="eventFeatureImg8 eFImg5">
                             
@@ -131,7 +139,9 @@ export default function SectionNine() {
                                 <button className="evenbtn flex items-center gap-2">View Events<Image className="evenbtnArrow" src={BtnArrow} alt="Btn Arrow" /> </button>
                             </div>
                         </div>
+                        </Link>
 
+                        <Link href="/even/evenSingal">
                         <div className="evenBox flex flex-wrap bg-white">
                             <div className="eventFeatureImg8 eFImg4">
                             
@@ -146,7 +156,9 @@ export default function SectionNine() {
                                 <button className="evenbtn flex items-center gap-2">View Events<Image className="evenbtnArrow" src={BtnArrow} alt="Btn Arrow" /> </button>
                             </div>
                         </div>
+                        </Link>
 
+                        <Link href="/even/evenSingal">
                         <div className="evenBox flex flex-wrap bg-white ">
                             <div className="eventFeatureImg8 eFImg3">
                             
@@ -161,7 +173,9 @@ export default function SectionNine() {
                                 <button className="evenbtn flex items-center gap-2">View Events<Image className="evenbtnArrow" src={BtnArrow} alt="Btn Arrow" /> </button>
                             </div>
                         </div>
+                        </Link>
 
+                        <Link href="/even/evenSingal">
                         <div className="evenBox flex flex-wrap bg-white">
                             <div className="eventFeatureImg8 eFImg2">
                             
@@ -176,7 +190,9 @@ export default function SectionNine() {
                                 <button className="evenbtn flex items-center gap-2">View Events<Image className="evenbtnArrow" src={BtnArrow} alt="Btn Arrow" /> </button>
                             </div>
                         </div>
+                        </Link>
 
+                        <Link href="/even/evenSingal">
                         <div className="evenBox flex flex-wrap bg-white">
                             <div className="eventFeatureImg8 eFImg1">
                             
@@ -191,6 +207,7 @@ export default function SectionNine() {
                                 <button className="evenbtn flex items-center gap-2">View Events<Image className="evenbtnArrow" src={BtnArrow} alt="Btn Arrow" /> </button>
                             </div>
                         </div>
+                        </Link>
 
 
                     </div>
