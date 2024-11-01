@@ -9,7 +9,7 @@ import FooterCloudImg from "../image/Footer-cloud-img.png"
 
 import Header from "../components/header";
 import Footer from "../components/footer";
-import BannerSectionGallary from "../gallaryComponent/gallaryBannnerSection";
+import BannerSectionGallary from "../gallaryComponent/gallaryBannerSection";
 import SectionTwoGallary from "../gallaryComponent/sectionTwo";
 
 
