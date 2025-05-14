@@ -62,7 +62,7 @@ export default function SectionEight() {
 
     return (
         <>
-        <section className="SectionEight flex px-10 ">
+        <section className="SectionEight flex   px-10 ">
             <div className="secEightInnerDiv flex pt-32  ">
                 <div className="secEightDiv1 flex  items-end ">
                     <Image src={BgImg2} alt="BgImg2" className="BgImg2" />
@@ -89,7 +89,7 @@ export default function SectionEight() {
                     <div className="secEigthDivBox pt-32 gap-3  flex flex-col items-center text-center">
                     <Image src={DashedArrow} alt="DashedArrow" className="dashedArrow1" />
                         <Image src={SvgScolarIcon} alt="SvgTeleSco" className="SvgTeleSco SvgScolarIcon " />
-                        <h2>2.VChoose Course</h2>
+                        <h2>2.Choose Course</h2>
                         <p>Bibendum enim facilisis gravida neque convallis a.</p>
                     </div>
 

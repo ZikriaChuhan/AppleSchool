@@ -1421,7 +1421,7 @@ header {
 }
 
 .secEightDiv2 h2 {
-    font-size: 45px;
+    font-size: 32px;
     font-family: RowdiesRegular;
     color: #ffffff;
 }
@@ -1429,12 +1429,12 @@ header {
 .AnimeImg {
     top: -40%;
     right: 0%;
-    width: 290px;
+    width: 200px;
     position: absolute;
 }
 
 .secEigthDivBox {
-    max-width: 287px;
+    max-width: 200px;
     position: relative;
 }
 
@@ -1469,7 +1469,7 @@ header {
 }
 
 .secEigthDivBox h2 {
-    font-size: 30px;
+    font-size: 22px;
     font-family: RowdiesRegular;
     color: #ffffff;
 }
@@ -1562,7 +1562,7 @@ header {
 
 .eventFeatureImg8 {
     background-image: url(./image/event-feature-image-9.jpg);
-    width: 300px;
+    width: 200px;
 
     background-position: center center;
     background-repeat: no-repeat;
@@ -1605,7 +1605,7 @@ header {
 
 .evenBoxContent {
     padding: 40px 30px;
-    width: 490px;
+    width: 400px;
 }
 
 .evenBoxbadge {
