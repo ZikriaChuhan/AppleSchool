@@ -87,7 +87,7 @@ gsap.registerPlugin(ScrollTrigger)
 
     return (
         <>
-            <section className="SectionSix pt-32 pb-32">
+            <section className="SectionSix py-32 px-20">
 
 
                 <div className="flex justify-evenly">
@@ -122,7 +122,7 @@ gsap.registerPlugin(ScrollTrigger)
 
                             <div className="flex justify-between items-center pt-8">
 
-                                <h3><span>$69</span> $69 </h3>
+                                <h3><span>$80</span> $69 </h3>
 
                                 <button className="coursebtn flex items-center gap-2">JOIN CLASS<Image className="coubtnArrow" src={BtnArrow} alt="Btn Arrow" /> </button>
 
@@ -150,7 +150,7 @@ gsap.registerPlugin(ScrollTrigger)
 
                             <div className="flex justify-between items-center pt-8">
 
-                                <h3><span>$69</span> $69 </h3>
+                                <h3><span>$80</span> $69 </h3>
 
                                 <button className="coursebtn flex items-center gap-2">JOIN CLASS<Image className="coubtnArrow" src={BtnArrow} alt="Btn Arrow" /> </button>
 
@@ -178,7 +178,7 @@ gsap.registerPlugin(ScrollTrigger)
 
                             <div className="flex justify-between items-center pt-8">
 
-                                <h3><span>$69</span> $69 </h3>
+                                <h3><span>$80</span> $69 </h3>
 
                                 <button className="coursebtn flex items-center gap-2">JOIN CLASS<Image className="coubtnArrow" src={BtnArrow} alt="Btn Arrow" /> </button>
 
@@ -206,7 +206,7 @@ gsap.registerPlugin(ScrollTrigger)
 
                             <div className="flex justify-between items-center pt-8">
 
-                                <h3><span>$69</span> $69 </h3>
+                                <h3><span>$80</span> $69 </h3>
 
                                 <button className="coursebtn flex items-center gap-2">JOIN CLASS<Image className="coubtnArrow" src={BtnArrow} alt="Btn Arrow" /> </button>
 
@@ -234,7 +234,7 @@ gsap.registerPlugin(ScrollTrigger)
 
                             <div className="flex justify-between items-center pt-8">
 
-                                <h3><span>$69</span> $69 </h3>
+                                <h3><span>$80</span> $69 </h3>
 
                                 <button className="coursebtn flex items-center gap-2">JOIN CLASS<Image className="coubtnArrow" src={BtnArrow} alt="Btn Arrow" /> </button>
 
@@ -262,7 +262,7 @@ gsap.registerPlugin(ScrollTrigger)
 
                             <div className="flex justify-between items-center pt-8">
 
-                                <h3><span>$69</span> $69 </h3>
+                                <h3><span>$80</span> $69 </h3>
 
                                 <button className="coursebtn flex items-center gap-2">JOIN CLASS<Image className="coubtnArrow" src={BtnArrow} alt="Btn Arrow" /> </button>
 

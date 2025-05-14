@@ -146,7 +146,7 @@ export default function SectionSeven() {
 
             <div className="SevenOurMissionMainDivs flex flex-col px-32 gap-16 py-32">
 
-                <div className="SevenDivBox flex ml-40 justify-between">
+                <div className="SevenDivBox flex ml-24 justify-between">
                     <div>
                     <div className="sevenDivHeading flex">
                     <h2>Our Mission</h2>
@@ -169,7 +169,7 @@ export default function SectionSeven() {
                 </div>
 
                 
-                <div className="SevenDivBox1 flex mr-40 justify-between">
+                <div className="SevenDivBox1 flex mr-24 justify-between">
                 <div className="sevenDivImg">
                         <Image src={TextImage1} alt="Text Image 1" className="TextImage2"/>
                     </div>
@@ -193,7 +193,7 @@ export default function SectionSeven() {
                 </div>
 
 
-                <div className="SevenDivBox2 flex ml-40 justify-between">
+                <div className="SevenDivBox2 flex ml-24 justify-between">
                     <div>
                     <div className="sevenDivHeading flex">
                     <h2>Our Vision</h2>

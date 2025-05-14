@@ -16,6 +16,7 @@ import ABCScale from "../image/ABC-Scale.png"
 import BackPack from "../image/Back-Pack.png"
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
+import Link from "next/link";
 
 
 
@@ -101,6 +102,33 @@ export default function Firstbanner() {
       yoyo: 1
     })
 
+     const handleMouseMove = (e) => {
+            const { clientX, clientY } = e;
+            const x = (window.innerWidth / 2 - clientX) / 20;
+            const y = (window.innerHeight / 2 - clientY) / 20;
+      
+            gsap.to(".myscissor", {
+              x: x,
+              y: y,
+              duration: 0.5,
+              ease: "power2.out",
+            });
+
+             gsap.to(".myBackPack", {
+              x: -x,
+              y: -y,
+              duration: 0.5,
+              ease: "power2.out",
+            });
+      
+          };
+      
+          window.addEventListener("mousemove", handleMouseMove);
+      
+          return () => {
+            window.removeEventListener("mousemove", handleMouseMove);
+          };
+
 
   })
 
@@ -164,7 +192,7 @@ export default function Firstbanner() {
               <Image src={Sliderblob} className="sliderblob" alt="Slider blob" />
             </div>
 
-            <Image src={BackPack} alt="BackPack" className="BackPack" />
+            <Image src={BackPack} alt="BackPack" className="BackPack myBackPack" />
 
           </div>
 
@@ -173,7 +201,7 @@ export default function Firstbanner() {
 
 
             <div className="scissorsDiv flex justify-between items-center">
-              <Image src={Scissorsimg} className="scissorsimg" alt="Scissors img" />
+              <Image src={Scissorsimg} className="scissorsimg myscissor" alt="Scissors img" />
 
               <svg className="starSvg" x="0px" y="0px" viewBox="0 0 212 210" >	<path d="M162.3,190.5c-11.1-25.6-22.1-51.2-33.2-76.8c18.6,8.7,37.2,17.4,55.8,26.1c10.2,4.8,18.3-10.5,8.1-15.3 c-16.5-7.7-33-15.4-49.4-23.1c18.1-4.9,36.1-9.9,54.2-14.8c10.9-3,5.3-19.3-5.6-16.3c-21.3,5.8-42.7,11.7-64,17.5 c9.8-16.2,20-32.1,30.7-47.8c6.3-9.2-9.4-17-15.7-7.9c-10.3,15-20.1,30.3-29.5,45.8C104.4,56.7,95.2,35.3,86,14 c-4.4-10.1-21.1-4.8-16.7,5.5C77.9,39.2,86.4,59,94.9,78.8C73.7,68.9,52.6,59,31.4,49.1c-10.2-4.8-18.3,10.5-8.1,15.3 c23.5,11,46.9,21.9,70.4,32.9c-26.5,7.2-53,14.5-79.5,21.7c-10.9,3-5.3,19.3,5.6,16.3c24.1-6.6,48.1-13.2,72.2-19.7 C82,134,72.5,152.8,63.6,171.8c-4.7,10.1,11,17.9,15.7,7.9c9.9-21.3,20.6-42.3,32.1-62.9c11.4,26.4,22.8,52.8,34.2,79.2 C149.9,206.1,166.7,200.8,162.3,190.5L162.3,190.5z"></path></svg>
             </div>
@@ -198,7 +226,7 @@ export default function Firstbanner() {
                     <h2>{q.head2}</h2>
                     <h1>{q.head1}</h1>
                     <p>{q.para}</p>
-                    <button className="firstbannerbtn flex items-center gap-2">GET STARTED<Image className="btnArrow" src={BtnArrow} alt="Btn Arrow" /> </button>
+                    <Link href="/contactus" className="firstbannerbtn w-fit flex items-center gap-2">GET STARTED<Image className="btnArrow" src={BtnArrow} alt="Btn Arrow" /> </Link>
                   </div>
 
                 ))}

@@ -65,9 +65,9 @@ export default function Aboutsec() {
                         <h1>Globally Recognized Interactive Preschool Education</h1>
                         <p>Gravida rutrum quisque non tellus orci ac auctor.. Aenean imperdiet sodales felis, ultricies ultricies metus faucibus non. Integer consequat ex lacus, in mattis nulla posuere in. Nam posuere feugiat lacus. Morbi suscipit erat felis, ac aliquam nibh.</p>
                     </div>
-                    <div className="aboutSvgContent mt-12 flex flex-col gap-14">
+                    <div className="aboutSvgContent max-w-2xl mt-12 flex flex-col gap-14">
 
-                        <div className="aboutContentBox1 flex justify-start   flex-wrap gap-4">
+                        <div className="aboutContentBox1 flex justify-between flex-wrap gap-4">
                         <div  className="aboutContentBox flex text-left items-center gap-4 ">
                             <Image src={AboutSvg1} alt="AboutSvg1" className="aboutsvg1" />
                             <h3>Child Friendly Environment</h3>
@@ -78,7 +78,7 @@ export default function Aboutsec() {
                             <h3>Real-Time Education</h3>
                         </div>
                         </div>
-                        <div className="aboutContentBox1 flex justify-start   flex-wrap gap-4">
+                        <div className="aboutContentBox1 flex justify-between   flex-wrap gap-4">
                         <div  className="aboutContentBox flex text-left items-center gap-4 ">
                             <Image src={AboutSvg3} alt="AboutSvg3" className="aboutsvg3" />
                             <h3>Well-Built Infrastructure</h3>
@@ -90,7 +90,7 @@ export default function Aboutsec() {
                         </div>
                         </div>
 
-                        <div className="aboutContentBox1 flex justify-start   flex-wrap gap-4">
+                        <div className="aboutContentBox1 flex justify-between   flex-wrap gap-4">
                         <div  className="aboutContentBox flex text-left items-center gap-4 ">
                             <Image src={AboutSvg4} alt="AboutSvg4" className="aboutsvg5" />
                             <h3>Professional Staff Members</h3>

@@ -52,6 +52,33 @@ tl.from(".thirdSecAnime",{
   opacity:0,
 })
 
+const handleMouseMove = (e) => {
+            const { clientX, clientY } = e;
+            const x = (window.innerWidth / 2 - clientX) / 20;
+            const y = (window.innerHeight / 2 - clientY) / 20;
+      
+            gsap.to(".starSvg1", {
+              x: x,
+              y: y,
+              duration: 0.5,
+              ease: "power2.out",
+            });
+
+             gsap.to(".starSvg2", {
+              x: -x,
+              y: -y,
+              duration: 0.5,
+              ease: "power2.out",
+            });
+      
+          };
+      
+          window.addEventListener("mousemove", handleMouseMove);
+      
+          return () => {
+            window.removeEventListener("mousemove", handleMouseMove);
+          };
+
  
     })
 
@@ -61,7 +88,7 @@ tl.from(".thirdSecAnime",{
         <>
         
         <section className="thirdsection">
-            <div className=" flex justify-center overflow-hidden items-center">
+            <div className=" flex justify-center  items-center">
                 <div className="starSvg1Div  ">
                     <Image src={StarSvg1} alt="StarSvg1" className="starSvg1" />
                 </div>

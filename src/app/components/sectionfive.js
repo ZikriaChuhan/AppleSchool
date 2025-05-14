@@ -9,6 +9,7 @@ import Star3d from "../image/3d-star.png"
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
+import Link from "next/link";
 
 
 
@@ -108,7 +109,31 @@ export default function SectionmyFive() {
             opacity: 0
         })
 
+const handleMouseMove = (e) => {
+            const { clientX, clientY } = e;
+            const x = (window.innerWidth / 2 - clientX) / 20;
+            const y = (window.innerHeight / 2 - clientY) / 20;
+      
+            gsap.to(".thunder", {
+              y: y,
+              duration: 0.5,
+              ease: "power2.out",
+            });
 
+             gsap.to(".star3d2", {
+              x: x,
+              y: -y,
+              duration: 0.5,
+              ease: "power2.out",
+            });
+      
+          };
+      
+          window.addEventListener("mousemove", handleMouseMove);
+      
+          return () => {
+            window.removeEventListener("mousemove", handleMouseMove);
+          };
 
 
     })
@@ -130,7 +155,7 @@ export default function SectionmyFive() {
                         <h2>Play & Learn </h2>
                         <h1>Committed To Fun Filled Education.</h1>
                         <p>Diam quam nulla porttitor massa id neque aliquam vestibulum. Purus gravida quis blandit turpis cursus in hac habitasse platea. Senectus et netus et malesuada. Eget nullam non nisi est.</p>
-                        <button className="fiveSecbtv flex items-center gap-2">GET STARTED<Image className="btnArrow" src={BtnArrow} alt="Btn Arrow" /> </button>
+                        <Link href="/LMScourses" className="fiveSecbtv flex items-center gap-2">GET STARTED<Image className="btnArrow" src={BtnArrow} alt="Btn Arrow" /> </Link>
 
                     </div>
                 </div>
