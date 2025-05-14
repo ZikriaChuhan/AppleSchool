@@ -241,14 +241,15 @@ header {
 
 .BackPack {
     bottom: 2%;
-    right: 0%;
-    width: 210px;
+    right: -7%;
+    width: 155px;
     position: absolute;
 }
 
 .firstbannerimg {
     width: 50%;
     position: relative;
+    display: flex;
 }
 
 .firstbannerimg2 {
@@ -258,9 +259,9 @@ header {
 }
 
 .sliderImg2 {
-    top: 75px;
+    top: 10px;
     right: 0;
-    width: 300px;
+    width: 280px;
     position: absolute;
 }
 
@@ -268,11 +269,12 @@ header {
     z-index: 1;
     position: absolute;
     padding: 0px 30px;
+    align-self: flex-end;
 }
 
 .sliderImg1 {
     z-index: 0;
-    width: 750px;
+    width: 100%;
 }
 
 .firstbannerimg3 {
@@ -305,7 +307,7 @@ header {
 
 .firstbannertxtContent h1 {
     font-family: RowdiesRegular;
-    font-size: 60px;
+    font-size: 35px;
     line-height: 1.2;
     font-weight: 400;
     color: #000000;
@@ -345,7 +347,7 @@ header {
 }
 
 .scissorsimg {
-    width: 150px;
+    width: 100px;
 }
 
 .starSvg {
@@ -374,12 +376,13 @@ header {
 
 .abcSale {
     right: 0;
-    width: 140px;
+    bottom: 0;
+    width: 112px;
     position: absolute;
 }
 
 
-
+/* 
 #firstbannertxtSec .slick-prev {
     color: #000000;
     top: 109%;
@@ -412,7 +415,7 @@ header {
     position: absolute;
     background-color: #1ead3600;
     z-index: 10;
-}
+} */
 
 
 @media only screen and (max-width: 1050px) {

@@ -25,8 +25,6 @@ export default function Home() {
       
       <Header />
 
-      {/* i am back */}
-
       <section >
         <Image src={CloudImg} className="cloudImgHome" alt="Cloud Img" />
       </section>

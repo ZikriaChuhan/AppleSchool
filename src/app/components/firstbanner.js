@@ -4,7 +4,7 @@ import Image from "next/image";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
+import { useRef } from "react";
 import SliderImg2 from "../image/home-slider-img-02.png"
 import SliderImg1 from "../image/home-slider-img-01.png"
 import Sliderblob from "../image/hslider-blob.png"
@@ -20,7 +20,7 @@ import { useGSAP } from "@gsap/react";
 
 
 export default function Firstbanner() {
-
+  let sliderRef = useRef(null);
   let tl = gsap.timeline()
 
   useGSAP(() => {
@@ -34,49 +34,49 @@ export default function Firstbanner() {
     })
     tl.from(".sliderblob", {
       ease: "elastic",
-      scale:1,
+      scale: 1,
       opacity: 0,
       duration: 1,
       stagger: 0.5,
     }, "-=1")
-    tl.from(".sliderImg2",{
-      top: -550,
+    tl.from(".sliderImg2", {
+      top: -500,
       opacity: 0,
       ease: "elastic.out(0.5,0.5)",
       duration: 1.5,
       stagger: 0.5,
     }, "-=1")
-    tl.from(".BackPack",{
-      x:100,
-      y:-50,
+    tl.from(".BackPack", {
+      x: 100,
+      y: -50,
       opacity: 0,
       ease: "elastic.out(0.5,0.5)",
       duration: 1.5,
       stagger: 0.5,
     }, "-=1")
 
-let tl2= gsap.timeline()
+    let tl2 = gsap.timeline()
 
-tl2.from(".arrowRLamine",{
-  x:600,
-  opacity: 0
-})
-tl2.from(".firstbannertxtContent h2",{
-  y:100,
-  opacity: 0
-})
-tl2.from(".firstbannertxtContent h1",{
-  y:100,
-  opacity: 0
-})
-tl2.from(".firstbannertxtContent p",{
-  y:90,
-  opacity: 0
-})
-tl2.from(".firstbannerbtn",{
-  y:80,
-  opacity: 0
-})
+    tl2.from(".arrowRLamine", {
+      x: 600,
+      opacity: 0
+    })
+    tl2.from(".firstbannertxtContent h2", {
+      y: 100,
+      opacity: 0
+    })
+    tl2.from(".firstbannertxtContent h1", {
+      y: 100,
+      opacity: 0
+    })
+    tl2.from(".firstbannertxtContent p", {
+      y: 90,
+      opacity: 0
+    })
+    tl2.from(".firstbannerbtn", {
+      y: 80,
+      opacity: 0
+    })
 
 
     gsap.from(".sliderblob", {
@@ -107,43 +107,50 @@ tl2.from(".firstbannerbtn",{
 
   const quotes = [
     {
-        head2: "Greater Learning",
-        head1: "Discover, Engage, Develop, and Enjoy!",
-        para: "Vitae elementum curabitur vitae nunc sed. Dictum varius duis at consectetur lorem donec. Nunc eget lorem dolor sed viverra ipsum nunc. Ac tortor vitae purus faucibus ornare.",  
+      head2: "Greater Learning",
+      head1: "Discover, Engage, Develop, and Enjoy!",
+      para: "Vitae elementum curabitur vitae nunc sed. Dictum varius duis at consectetur lorem donec. Nunc eget lorem dolor sed viverra ipsum nunc. Ac tortor vitae purus faucibus ornare.",
     },
     {
       head2: "Personal Attention",
       head1: "Child Focused Experiential Learning",
-      para: "Turpis egestas maecenas pharetra convallis posuere morbi leo urna. Semper risus in hendrerit gravida rutrum quisque non. Mattis vulputate enim nulla aliquet porttitor lacus luctus.", 
+      para: "Turpis egestas maecenas pharetra convallis posuere morbi leo urna. Semper risus in hendrerit gravida rutrum quisque non. Mattis vulputate enim nulla aliquet porttitor lacus luctus.",
     },
     {
       head2: "High Standard",
       head1: "Play-Based Young Learning System",
-      para: "Cras adipiscing enim eu turpis egestas pretium. Fringilla ut morbi tincidunt augue interdum velit euismod in. Scelerisque eleifend donec pretium vulputate.", 
+      para: "Cras adipiscing enim eu turpis egestas pretium. Fringilla ut morbi tincidunt augue interdum velit euismod in. Scelerisque eleifend donec pretium vulputate.",
     }
-];
+  ];
+
+  const next = () => {
+    sliderRef.slickNext();
+  };
+  const previous = () => {
+    sliderRef.slickPrev();
+  };
 
 
-const settings = {
+  const settings = {
     dots: false,
-    arrow: true,
+    arrow: false,
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
     cssEase: "linear",
 
-};
+  };
 
 
   return (
     <>
-      <section className="firstbanner px-20">
+      <section className="firstbanner px-20 overflow-hidden">
         <div className="firstbannerinnerSec flex justify-between ">
 
           <div className="firstbannerimg ">
 
-            <div className="firstbannerimg2">
 
+            <div className="firstbannerimg2">
               <Image className="sliderImg2" src={SliderImg2} alt="Slider Img2" />
             </div>
 
@@ -155,7 +162,7 @@ const settings = {
               <Image src={Sliderblob} className="sliderblob" alt="Slider blob" />
             </div>
 
-            <Image src={BackPack} alt="BackPack"className="BackPack" />
+            <Image src={BackPack} alt="BackPack" className="BackPack" />
 
           </div>
 
@@ -177,31 +184,31 @@ const settings = {
               <p>Vitae elementum curabitur vitae nunc sed. Dictum varius duis at consectetur lorem donec. Nunc eget lorem dolor sed viverra ipsum nunc. Ac tortor vitae purus faucibus ornare.</p>
               <button className="firstbannerbtn flex items-center gap-2">GET STARTED<Image className="btnArrow" src={BtnArrow} alt="Btn Arrow" /> </button>
             </div> */}
-            
+
 
             <div className="slider-container  ">
-                    <Slider {...settings}>
-                        {quotes.map((q, index) => (
-                           
+              <Slider {...settings} ref={slider => (sliderRef = slider)}>
+                {quotes.map((q, index) => (
 
-<div className="firstbannertxtContent py-2 pb-3" key={index}>
 
-<h2>{q.head2}</h2>
-<h1>{q.head1}</h1>
-<p>{q.para}</p>
-<button className="firstbannerbtn flex items-center gap-2">GET STARTED<Image className="btnArrow" src={BtnArrow} alt="Btn Arrow" /> </button>
-</div>
+                  <div className="firstbannertxtContent py-2 pb-3" key={index}>
 
-                        ))}
-                    </Slider>
-                </div>
+                    <h2>{q.head2}</h2>
+                    <h1>{q.head1}</h1>
+                    <p>{q.para}</p>
+                    <button className="firstbannerbtn flex items-center gap-2">GET STARTED<Image className="btnArrow" src={BtnArrow} alt="Btn Arrow" /> </button>
+                  </div>
+
+                ))}
+              </Slider>
+            </div>
 
 
 
 
             <div className="SvgArrowDiv flex gap-2">
-              <Image src={SvgArrowL} alt="Svg Arrow L" className="arrowRLamine" />
-              <Image src={SvgArrowR} alt="Svg Arrow r" className="arrowRLamine" />
+              <Image src={SvgArrowL} alt="Svg Arrow L" className="arrowRLamine cursor-pointer" onClick={previous} />
+              <Image src={SvgArrowR} alt="Svg Arrow r" className="arrowRLamine cursor-pointer" onClick={next} />
               <Image src={ABCScale} className="abcSale" alt="abc Scale img" />
 
             </div>
