@@ -255,7 +255,7 @@ header {
 .firstbannerimg2 {
     z-index: 1;
     width: 100%;
-    position: relative;
+    position: absolute;
 }
 
 .sliderImg2 {
@@ -267,7 +267,7 @@ header {
 
 .firstbannerimg1 {
     z-index: 1;
-    position: absolute;
+    position: relative;
     padding: 0px 30px;
     align-self: flex-end;
 }
@@ -284,7 +284,7 @@ header {
 }
 
 .sliderblob {
-    width: 700px;
+    width: 650px;
 }
 
 

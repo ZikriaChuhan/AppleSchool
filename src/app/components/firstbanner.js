@@ -150,12 +150,14 @@ export default function Firstbanner() {
           <div className="firstbannerimg ">
 
 
-            <div className="firstbannerimg2">
+            <div className=" flex relative ">
+              <div className="firstbannerimg2">
               <Image className="sliderImg2" src={SliderImg2} alt="Slider Img2" />
             </div>
 
-            <div className="firstbannerimg1">
+            <div className="firstbannerimg1 self-end">
               <Image className="sliderImg1" src={SliderImg1} alt="Slider Img1" />
+            </div>
             </div>
 
             <div className="firstbannerimg3">
